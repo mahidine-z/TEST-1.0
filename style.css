@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bg-rose {
+    background-color: rgb(84, 83, 83);
+}
+
+.boites {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+}
+
+.maPolice {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.bouton {
+    display: block;
+    /*background-color: grey;*/
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.interbold {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.interregular {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.bordersolid {
+    border: 1px solid black;
+}
+
+.borderdashed {
+    border: 5px dashed black;
+
+}
+
+.vert {
+    display: block;
+    background-color: #61FF7B;
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.bleu {
+    display: block;
+    background-color: #1398A0;
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.bouton3_6 {
+    border-radius: 32px;
+
+}
+
+.bouton_4 {
+    border-radius: 32px 0px;
+}
+
+.bouton_5 {
+    border-radius: 8px;
+}
+
+.vacances {
+    width: 300px;
+}
+
+.total{
+    color: black;
+}
+
+.total5{
+    color: azure;
+}
+
+.Ombre{
+    filter:drop-shadow(20px 30px 4px)
+}
