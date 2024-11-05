@@ -83,6 +83,10 @@
 .vacances {
     width: 300px;
 }
+.vacances img {
+    display: block ;
+    width: 100%;
+}
 
 .total{
     color: black;
@@ -93,5 +97,26 @@
 }
 
 .Ombre{
-    filter:drop-shadow(20px 30px 4px)
+    box-shadow:4px 4px 12px #000000
+}
+
+.card{
+    width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+   
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
+}
+
+.flex{display: flex;
+    justify-content: space-around;
 }
